@@ -19,3 +19,8 @@
     * php artisan db:seed
     * php artisan serve
     * Archivo para importar en Postman api-voucher.postman_collection.json
+
+## Ejemplos de consultas
+* Lista todos los vauchers: http://127.0.0.1:8000/api/v1/voucher
+* Verifica que el vaucher esté activo: http://127.0.0.1:8000/api/v1/voucher/active/1
+* Lista los vauchers activos de un usuario: http://127.0.0.1:8000/api/v1/voucher/customer/1
